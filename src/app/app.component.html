@@ -1,4 +1,18 @@
 <div>
-  Welcome to my blog :) 
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">ThirstLand</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a routerLink="customer"> Customer </a></li>
+        <li><a routerLink="customer/100"> Single Customer </a></li>
+        <li><a routerLink="supplier"> Supplier </a></li>
+      </ul>
+    </div>
+  </nav>
 </div>
+
+<div class="container">
 <router-outlet></router-outlet>
+</div>
